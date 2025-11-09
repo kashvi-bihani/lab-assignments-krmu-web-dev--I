@@ -1,0 +1,114 @@
+
+/*This will be applied to all the element*/
+body{
+  
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+/*This is applied for the navigation bar*/
+.header {
+    background-color:rgba(0, 0, 255, 0.947);
+    color:white;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a:hover{
+    color: #00ffffee;
+    text-decoration: underline;
+}
+/*Style for paragraph*/
+.box{
+    color: rgb(51, 196, 196);
+    
+
+}
+/*Style for horizontal*/
+hr{
+    border: 2px solid black;
+    margin: 10px;
+}
+/*Style for section*/
+section{
+    padding:15px;
+    margin:5px;
+}
+/*Style for picture*/
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500px;
+    box-shadow:10px;
+}
+/*Style for table*/
+table{
+    margin: auto;
+}
+thead th {
+    border: 2px solid blue;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+tbody td{
+    border: 2px solid blue;
+    padding:20px;
+    text-align: center;
+}
+.button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 1px;
+    color: aqua;
+}
+.button:hover{
+    color: cornsilk;
+}
+/*For projects*/
+li{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+}
+/*Back to top button*/
+.back{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+.back:hover{
+    color: aqua;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
