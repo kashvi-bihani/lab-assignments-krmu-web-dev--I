@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FASTIONINSTA</div> 
+        <div class="search-box">
+        <input type="text" placeholder="Search products">
+        </div>
+        <div class="nav-links">
+            <a href="#Cart">Cart</a>
+            <a href="#Login">Login</a>
+        </div>
+    </nav>
+ <section class="hero">
+    <div class="hero-content">
+        <h1>Winter Collection 2025</h1>
+        <p>Get the latest trendy outfits at amazing prices.</p>
+        <button>Shop Now</button>
+    </div>
+</section>
+<div class="flash-strip">
+  <div class="flash-left">
+    <span class="flash-label">FLASH SALE</span>
+    <span class="flash-deal">Up to 50% OFF</span>
+  </div>
+
+  <div class="flash-right">
+    <span class="flash-ends">Ends in</span>
+    <span class="countdown" id="countdown">00:15:00</span>
+  </div>
+</div>
+<div class="layout">
+    <aside class="sidebar">
+        <h3>Filters</h3>
+        <div class="filter-group">
+            <label><input type="checkbox"> Men</label><br>
+            <label><input type="checkbox"> Women</label><br>
+            <label><input type="checkbox"> Kids</label><br><br>
+        </div>
+        <h4>Price</h4>
+        <div class="filter-group">
+            <label><input type="checkbox"> Under ₹500</label><br>
+            <label><input type="checkbox"> ₹500 - ₹1000</label><br>
+            <label><input type="checkbox"> Above ₹1000</label><br><br>
+        </div>
+        <div class="filter-group">
+            <h4>Color</h4>
+              <label><input type="checkbox"> Black</label><br>
+              <label><input type="checkbox"> White</label><br>
+              <label><input type="checkbox"> Blue</label><br>
+        </div>
+    </aside>
+    <div class="right-section">
+    <div class="content-box">
+<section class="categories">
+    <div class="cat-grid">
+
+        <div class="cat-card">
+            <div class="cat-img-box">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/index-online-65a1812dc7346.jpg" alt="Men">
+            </div>
+            <p>Men</p>
+        </div>
+
+        <div class="cat-card">
+            <div class="cat-img-box">
+                <img src="https://media.glamour.com/photos/688a6296794a4d4628d59f7b/16:9/w_1280,c_limit/2196672330" alt="Women">
+            </div>
+            <p>Women</p>
+        </div>
+
+        <div class="cat-card">
+            <div class="cat-img-box">
+                <img src="https://media.istockphoto.com/id/531786318/photo/top-view-of-female-fashion-accessories.jpg?s=612x612&w=0&k=20&c=kA9wOhgfDQiz7RO6GoEztqlPNGaTxZyFwf14991aMM0=" alt="Accessories">
+            </div>
+            <p>Accessories</p>
+        </div>
+
+    </div>
+</section>
+<section class="products">
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="https://static.10kya.com/media/catalog/product/cache/1/image/1080x/b05d625d6b6a602168d46abb7a406194/w/i/winter-thick-jackets-coats-khakhi-1-winter-stylish-clothing-online-india-1100x1100_1.jpg" alt="Product">
+            <h3>Winter Jacket</h3>
+            <p class="price">$99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9vZGllfGVufDB8fDB8fHww" alt="Product">
+            <h3>Hoddie</h3>
+            <p class="price">$79</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLzW8pMSirtIaE89C61AVkIHAgy33lpKsgzg&s"" alt="Product">
+            <h3>Denim jeans</h3>
+            <p class="price">$150</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    </div>
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZyGkDBp3kDjUL0N-ZexTIKxPfg_XgpXpFA&s"alt="Customer">
+            <p class="quote">"Amazing quality! The winter collection is super warm and stylish."</p>
+            <p class="name">– Ashish Kumar</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTLBrDLLENhg1PpQrRakLdxY-6Kyl84UnZmw&s" alt="Customer">
+            <p class="quote">"Fast delivery and great customer support. Highly recommend!"</p>
+            <p class="name">– Jennifer Philips</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpzOxPKvUhiQjdki1a40cIIx9aVdvrdOQRFA&s" alt="Customer">
+            <p class="quote">"Loved the accessories. Stylish and affordable!"</p>
+            <p class="name">– Ayesha Khan </p>
+        </div>
+    </div>
+</section>
+<section class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Get the latest offers, updates & exclusive discounts.</p>
+
+    <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Policies</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 YourWebsite. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
