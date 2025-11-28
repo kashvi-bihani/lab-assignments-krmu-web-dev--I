@@ -144,7 +144,7 @@ nav a:hover {
   gap: 20px;
   margin-top: 20px;
 }
-
+/* Project*/
 .card {
   background: #ffffff;
   padding: 20px;
@@ -158,26 +158,23 @@ nav a:hover {
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
-/* TABLE STYLES */
-.table {
-  width: 70%;
-  margin: auto;
-  border-collapse: collapse;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  animation: fadeIn 1s ease forwards;
+/* SKILLS GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
 }
-
-.table th {
-  background: #0a66c2;
-  color: #ffffff;
-  padding: 12px;
-  font-size: 1.1rem;
+.skill-card{
+    padding:20px;
+    background:#003cff;
+    color:white;
+    border-radius:10px;
+    transition:0.3s;
 }
-
-.table td {
-  border: 1px solid #ccc;
-  padding: 12px;
-}
+.skill-card:hover{
+    transform:scale(1.05);
+} 
 
 /*  CONTACT FORM  */
 .contact-form {
@@ -262,4 +259,5 @@ footer {
   .nav-flex { flex-direction: column; gap: 10px; }
   nav a { margin: 0 10px; }
   .table { width: 100%; }
+
 }
